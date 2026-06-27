@@ -1,0 +1,58 @@
+
+  "layer": "top",
+  "position": "top",
+  "height": 34,
+  "spacing": 10,
+
+  "modules-left": ["hyprland/workspaces" ],
+  "modules-center": ["clock"],
+  "modules-right": ["battery", "cpu", "memory", "disk", "network", "temperature", "tray"],
+
+  "clock": {
+    "format": "{:%a %b %d | %I:%M %p}"
+  },
+
+  "cpu": {
+    "format": "CPU {usage}%",
+    "interval": 2
+  },
+  "battery": {
+  "bat": "BAT0",
+  "interval": 10,
+  "states": {
+    "warning": 30,
+    "critical": 15
+  },
+  "format": "{icon} {capacity}%",
+  "format-charging": " {capacity}%",
+  "format-plugged": " {capacity}%",
+  "format-icons": ["", "", "", "", ""]
+},
+
+  "memory": {
+    "format": "RAM {}%",
+    "interval": 2
+  },
+
+  "disk": {
+    "path": "/",
+    "format": "DISK {percentage_used}%",
+    "interval": 10
+  },
+
+  "network": {
+    "format-wifi": "{essid} {bandwidthUpBits}↑ {bandwidthDownBits}↓",
+    "format-ethernet": "ETH {bandwidthUpBits}↑ {bandwidthDownBits}↓",
+    "format-disconnected": "Offline",
+    "interval": 2
+  },
+
+  "temperature": {
+    "format": "{temperatureC}°C",
+    "critical-threshold": 80
+  },
+
+  "tray": {
+    "spacing": 8
+  }
+}
