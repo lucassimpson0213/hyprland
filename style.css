@@ -1,0 +1,103 @@
+/* GLOBAL RESET */
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  min-height: 0;
+}
+
+/* BAR */
+window#waybar {
+  background: rgba(20, 20, 25, 0.85);
+  color: #e5e5e5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* MODULE BASE */
+#cpu,
+#memory,
+#disk,
+#network,
+#temperature,
+#clock {
+  padding: 4px 10px;
+  margin: 4px 4px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* WORKSPACES */
+#workspaces {
+  margin: 4px 6px;
+}
+
+#workspaces button {
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 8px;
+  background: transparent;
+  color: #888;
+}
+
+#workspaces button.active {
+  background: #7aa2f7;
+  color: #111;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* CLOCK (centerpiece) */
+#clock {
+  font-weight: bold;
+  color: #c0caf5;
+  background: rgba(122, 162, 247, 0.15);
+}
+
+/* CPU */
+#cpu {
+  color: #f7768e;
+}
+
+/* MEMORY */
+#memory {
+  color: #9ece6a;
+}
+
+/* DISK */
+#disk {
+  color: #e0af68;
+}
+
+/* NETWORK */
+#network {
+  color: #7dcfff;
+}
+
+/* TEMPERATURE */
+#temperature {
+  color: #bb9af7;
+}
+
+/* CRITICAL TEMP */
+#temperature.critical {
+  background: #f7768e;
+  color: #111;
+}
+
+/* TRAY */
+#tray {
+  margin: 4px 8px;
+}
+
+/* HOVER EFFECT (subtle polish) */
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#network:hover,
+#temperature:hover,
+#clock:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
