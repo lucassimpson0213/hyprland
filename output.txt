@@ -1,0 +1,97 @@
+Monitor eDP-1 (ID 0):
+	0x0@60.00000 at 6400x0
+	description: Apple Computer Inc Color LCD
+	make: Apple Computer Inc
+	model: Color LCD
+	physical size (mm): 290x180
+	serial: 
+	active workspace: 0 ()
+	special workspace: 0 ()
+	reserved: 0 0 0 0
+	scale: 1.00
+	transform: 0
+	focused: no
+	dpmsStatus: 1
+	vrr: false
+	solitary: 0
+	solitaryBlockedBy: invalid workspace
+	activelyTearing: false
+	tearingBlockedBy: next frame is not torn,user settings,missing candidate,hw cursor
+	directScanoutTo: 0
+	directScanoutBlockedBy: user settings,missing candidate
+	disabled: true
+	currentFormat: XRGB8888
+	mirrorOf: none
+	availableModes: 2560x1600@60.00Hz 
+	colorManagementPreset: srgb
+	sdrBrightness: 1.00
+	sdrSaturation: 1.00
+	sdrMinLuminance: 0.20
+	sdrMaxLuminance: 80
+	hardwareCursorsInUse: true
+
+Monitor DP-1 (ID 1):
+	2560x1440@59.95100 at 2560x0
+	description: ASUSTek COMPUTER INC VG27AQ1A 0x9195A922
+	make: ASUSTek COMPUTER INC
+	model: VG27AQ1A
+	physical size (mm): 600x340
+	serial: 0x9195A922
+	active workspace: 6 (6)
+	special workspace: 0 ()
+	reserved: 0 37 0 0
+	scale: 1.00
+	transform: 0
+	focused: yes
+	dpmsStatus: 1
+	vrr: false
+	solitary: 0
+	solitaryBlockedBy: windowed mode,missing candidate
+	activelyTearing: false
+	tearingBlockedBy: next frame is not torn,user settings,missing candidate,hw cursor
+	directScanoutTo: 0
+	directScanoutBlockedBy: user settings,missing candidate
+	disabled: false
+	currentFormat: XRGB8888
+	mirrorOf: none
+	availableModes: 2560x1440@99.95Hz 2560x1440@59.95Hz 1920x1080@120.04Hz 1920x1080@120.00Hz 1920x1080@119.88Hz 1920x1080@99.99Hz 1920x1080@60.00Hz 1920x1080@60.00Hz 1920x1080@59.94Hz 1920x1080@50.00Hz 1920x1080@30.00Hz 1920x1080@29.97Hz 1280x1024@75.03Hz 1280x1024@60.02Hz 1440x900@59.90Hz 1152x864@75.00Hz 1280x720@60.00Hz 1280x720@59.94Hz 1280x720@50.00Hz 1440x576@50.00Hz 1440x576@50.00Hz 1024x768@75.03Hz 1024x768@70.07Hz 1024x768@60.00Hz 1440x480@60.00Hz 1440x480@60.00Hz 1440x480@59.94Hz 1440x480@59.94Hz 832x624@74.55Hz 800x600@75.00Hz 800x600@72.19Hz 800x600@60.32Hz 800x600@56.25Hz 720x576@50.00Hz 720x576@50.00Hz 720x480@60.00Hz 720x480@60.00Hz 720x480@59.94Hz 720x480@59.94Hz 640x480@75.00Hz 640x480@72.81Hz 640x480@66.67Hz 640x480@60.00Hz 640x480@59.94Hz 720x400@70.08Hz 
+	colorManagementPreset: srgb
+	sdrBrightness: 1.00
+	sdrSaturation: 1.00
+	sdrMinLuminance: 0.20
+	sdrMaxLuminance: 80
+	hardwareCursorsInUse: true
+
+Monitor DP-2 (ID 2):
+	2560x1440@120.04600 at 0x0
+	description: ASUSTek COMPUTER INC VG32UQA1A R7LMAS001006
+	make: ASUSTek COMPUTER INC
+	model: VG32UQA1A
+	physical size (mm): 700x390
+	serial: R7LMAS001006
+	active workspace: 1 (1)
+	special workspace: 0 ()
+	reserved: 0 37 0 0
+	scale: 1.00
+	transform: 0
+	focused: no
+	dpmsStatus: 1
+	vrr: false
+	solitary: 0
+	solitaryBlockedBy: windowed mode,missing candidate
+	activelyTearing: false
+	tearingBlockedBy: next frame is not torn,user settings,missing candidate,hw cursor
+	directScanoutTo: 0
+	directScanoutBlockedBy: user settings,missing candidate
+	disabled: false
+	currentFormat: XRGB8888
+	mirrorOf: none
+	availableModes: 3840x2160@60.00Hz 3840x2160@60.00Hz 3840x2160@59.94Hz 3840x2160@50.00Hz 1920x2160@59.99Hz 2560x1440@143.97Hz 2560x1440@120.05Hz 2560x1440@59.95Hz 1920x1080@120.00Hz 1920x1080@119.88Hz 1920x1080@100.00Hz 1920x1080@60.00Hz 1920x1080@60.00Hz 1920x1080@59.94Hz 1920x1080@50.00Hz 1680x1050@59.95Hz 1280x1024@75.03Hz 1280x1024@60.02Hz 1440x900@59.89Hz 1280x960@60.00Hz 1152x864@75.00Hz 1280x720@60.00Hz 1280x720@60.00Hz 1280x720@59.94Hz 1280x720@50.00Hz 1440x576@50.00Hz 1440x576@50.00Hz 1024x768@75.03Hz 1024x768@70.07Hz 1024x768@60.00Hz 1440x480@60.00Hz 1440x480@60.00Hz 1440x480@59.94Hz 1440x480@59.94Hz 800x600@75.00Hz 800x600@72.19Hz 800x600@60.32Hz 800x600@56.25Hz 720x576@50.00Hz 720x576@50.00Hz 720x480@60.00Hz 720x480@60.00Hz 720x480@59.94Hz 720x480@59.94Hz 640x480@75.00Hz 640x480@72.81Hz 640x480@66.67Hz 640x480@60.00Hz 640x480@59.94Hz 640x480@59.94Hz 720x400@70.08Hz 
+	colorManagementPreset: srgb
+	sdrBrightness: 1.00
+	sdrSaturation: 1.00
+	sdrMinLuminance: 0.20
+	sdrMaxLuminance: 80
+	hardwareCursorsInUse: true
+
+

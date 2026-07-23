@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+session=$(
+    printf '%s\n' main dev homelab work |
+        wofi --dmenu --prompt "Workspace"
+)
+
+[[ -z "$session" ]] && exit 0
+
+exec kitty tmux new-session -A -s "$session"
