@@ -1,0 +1,27 @@
+#! /usr/bin/env bash
+
+
+# hl.bind(
+#     mainMod .. "+ D",
+#     hl.dsp.exec_cmd("find "$HOME/Desktop" |  wofi --dmenu |  "
+# )
+#
+#
+files="$(find "$HOME/Desktop")"
+
+
+echo "$files"
+
+
+wofi_return="$(find "$HOME/Desktop" | wofi --dmenu)"
+
+printf "\n\n wofi return: \n"
+echo "$wofi_return"
+printf "\n\n"
+
+google-chrome \
+    --user-data-dir=/tmp/wofi-chrome \
+    "$wofi_return"
+
+
+

@@ -251,6 +251,11 @@ hl.bind(
 )
 
 hl.bind(
+    mainMod .. "+ D",
+    hl.dsp.exec_cmd(os.getenv("HOME") .. "/.config/hypr/scripts/open-desktop-files-menu")
+)
+
+hl.bind(
     "SUPER + H",
     hl.dsp.exec_cmd("kitty nvim " .. os.getenv("HOME") .. "/.config/hypr/hyprland.lua")
 )
@@ -261,9 +266,6 @@ hl.bind(
     )
 )
 
-hl.bind("SUPER + D",
-    hl.dsp.exec_cmd("kitty dbeaver")
-)
 
 -- Extra terminal shortcut, also preserved from your earlier custom section.
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal), {
