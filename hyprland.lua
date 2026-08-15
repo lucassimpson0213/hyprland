@@ -5,16 +5,16 @@
 ---- MONITORS ----
 hl.monitor({
     output   = "desc:ASUSTek COMPUTER INC VG32UQA1A R7LMAS001006",
-    mode     = "2560x1440@60",
+    mode     = "3840x2560@60",
     position = "0x0",
-    scale    = 1,
+    scale    = 2,
 })
 
 hl.monitor({
     output   = "desc:ASUSTek COMPUTER INC VG27AQ1A 0x9195A922",
     mode     = "preferred",
     position = "2560x0",
-    scale    = 1,
+    scale    = 2,
     disabled = true
 })
 
